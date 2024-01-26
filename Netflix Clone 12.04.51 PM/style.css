@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: white;
+    z-index: 0;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#background1{
+    height: 100vh;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-color: rgb(97, 89, 89);
+    background-blend-mode: multiply;
+}
+/*Heading*/
+#heading{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#logo{
+    color: red;
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-right: 500px;
+}
+#options{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#lang{
+    height: 32px;
+    width: 200px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#lang-sym{
+    margin-left: 10px;
+}
+#lang-text{
+    margin-right: 65px;
+}
+#drop-down{
+    margin-right: 10px;
+}
+#signout{
+    height: 32px;
+    width: 88px;
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+/*Hero1*/
+#hero1{
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    text-align: center;
+}
+.hero1-p{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+#hero1-h1{
+    font-size: 3rem;
+}
+.restart{
+    height: 3rem;
+    width: 350px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.restart:hover{
+    scale: 110%;
+}
+/*Hero2*/
+#hero2{
+    height: 80vh;
+    background-color: black;
+    border-top: 8px solid grey;
+    border-bottom: 8px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero2-text{
+    height: 64vh;
+}
+#tv{
+    height: 64vh;
+    width: 80vh;
+    background-image: url("tv.png");
+    background-size: cover;
+} 
+#hero2-h1{
+    margin-top: 20%;
+    margin-bottom: 1.4rem;
+}
+#insidetv{
+    height: 100%;
+    width: 101%;
+}
+#screen{
+    width: 77%;
+    height: 53%;
+    position: relative;
+    left: 14%;
+    top: 21%;
+}
+/*Hero3*/
+#hero3{
+    height: 80vh;
+    background-color: black;
+    border-bottom: 8px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mobile{
+    height: 64vh;
+    width: 80vh;
+    background-image: url("mobile.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#mobile-text{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 60%;
+    height: 20%;
+    position: relative;
+    left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+
+}
+#mobile-p1{
+    font-size: 1.1rem;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#mobile-p2{
+    position: relative;
+    top: 40%;
+    right: 41.5%;
+    color: #0071eb;
+    font-size: 1rem;
+}
+#mobile-down{
+    margin-top: 10%;
+    margin-right: 2%;
+    font-size: 1.5rem;
+}
+#hero3-text{
+    height: 64vh;
+    width: 80vh;
+}
+#hero3-p{
+    margin-top: 4%;
+}
+#hero3-h1{
+    margin-top: 20%;
+}
+/*Hero 4*/
+#hero4{
+    height: 80vh;
+    background-color: black;
+    border-bottom: 8px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero4-text{
+    height: 64vh;
+    width: 80vh;
+}
+#monitor{
+    height: 64vh;
+    width: 80vh;
+    background-image: url("stream\ unlimited.png");
+    background-size: cover;
+}
+#hero4-p{
+    margin-top: 4%;
+}
+#hero4-h1{
+    margin-top: 20%;
+}
+#screen2{
+    width: 65%;
+    height: 47%;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+#inside-monitor{
+    height: 106%;
+    width: 100%;
+}
+/*Hero 5*/
+#hero5{
+    height: 80vh;
+    background-color: black;
+    border-bottom: 8px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kids{
+    height: 64vh;
+    width: 80vh;
+    background-image: url("kids.png");
+    background-size: cover;
+}
+#hero5-text{
+    height: 64vh;
+    width: 80vh;
+}
+#hero5-p{
+    margin-top: 4%;
+}
+#hero5-h1{
+    margin-top: 20%;
+}
+/*Hero 6*/
+#hero6{
+    height: 140vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 8px solid grey;
+}
+.questions{
+    height: 84px;
+    width: 80%;
+    background-color: rgb(45, 44, 44); 
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 20px solid rgb(45, 44, 44);
+}
+.plus{
+    margin-right: 20px;
+}
+#first{
+    margin-top: 3%;
+}
+#restart2{
+    margin-right: 35%;
+    margin-bottom: 5%;
+}
+#hero6-h1{
+    margin-top: 4%;
+}
+/*Footer*/
+#footer{
+    height: 60vh;
+    background-color: black;
+    color: rgb(175,175,175);
+}
+.footer-p{
+    font-weight: 500;
+    color: rgb(175, 175, 175);
+    font-size: 1rem;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+u{
+    color: rgb(175, 175, 175);
+}
+li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+a{
+    color: rgb(175, 175, 175);
+}
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-right: 17%;
+}
