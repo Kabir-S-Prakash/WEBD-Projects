@@ -1,0 +1,430 @@
+/* universal */
+*{
+    margin: 0;
+    border: border-box;
+    font-family: ProximaNova, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Arial, Segoe UI Emoji, Segoe UI Symbol, Apple Color Emoji, Twemoji Mozilla, Noto Color Emoji, EmojiOne Color, Android Emoji;
+    text-align: center;
+    color: white;
+}
+
+/* front page including center quote */
+#front-page{
+    height: 100vh;
+    background-image: url("background3.png");
+    background-color: rgb(191, 191, 191);
+    background-blend-mode: multiply;
+}
+
+/* Nav Bar */
+#nav-bar{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+#nav-bar-left{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 5%;
+}
+#logo{
+    height: 8vh;
+    width: 15%;
+    position: relative;
+    background-image: url("logo.jpg");
+    background-size: cover;
+}
+.nav-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* styling links */
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #4CC9F0;
+}
+#nav-links{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-bar-right{
+    position: relative;
+    left: 40%;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+/* styling language section */
+#lang{
+    display: flex;
+    align-items: center;
+}
+#lang-logo{
+    font-size: 2rem;
+    color: white;
+}
+#lang-text{
+    font-size: 1.5rem;
+    position: relative;
+    left: 0.5rem;
+}
+
+/* logout button */
+#logout-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10%;
+    width: 100%;
+    border-radius: 30px;
+}
+#logout-p:hover{
+    scale: 108%;
+    background-color: rgb(231, 231, 231);
+}
+
+/* Front Page */
+#center-quote{
+    width: 80%;
+    position: relative;
+    height: 15%;
+    top: 20%;
+    left: 11%;
+}
+#center-quote-p{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+/* see all profiles button */
+#scroll{
+    height: 10%;
+    width: 13%;
+    border: 2px solid white;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4895EF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+#scroll:hover{
+    scale: 108%;
+    background-color: #367dcf;
+}
+.margin{
+    height: 3vh;
+    background-color: grey;
+}
+
+/* Matching Page */
+#matching-page{
+    background-color: white;
+}
+#matching-heading-p{
+    color: black;
+}
+
+/* styling for paragraphs in form */
+.form-p{
+    color: black;
+}
+input{
+    color: black;
+}
+
+/* error message styling */
+#error-p{
+    color: red;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 4vh;
+    font-weight: 700;
+}
+
+/* Form */
+#matching-page{
+    background-color: black;
+}
+#form-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 440vh;
+    justify-content: space-evenly;
+}
+#matching-heading-p{
+    color: #FCA311;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+
+/* form styling */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
+    left: 25%;
+    background-color: white;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    height: 2800px;
+    justify-content: space-evenly;
+}
+.form-p{
+    color: black;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* interests box */
+#check1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* checkbox text styling */
+.checks-label{
+    width: 32%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* checkbox images styling */
+.images{
+    width: 95%;
+    height: 85%;
+    /* border: 2px solid black; */
+}
+
+/* Interests images */
+#traveling-img{
+    background-image: url('form\ phtots/travel.jpeg');
+    background-size: cover;
+}
+#music-img{
+    background-image: url('form\ phtots/music.jpeg');
+    background-size: cover;
+}
+#movies-img{
+    background-image: url('form\ phtots/movies.webp');
+    background-size: cover;
+}
+#art-img{
+    background-image: url('form\ phtots/art.jpeg');
+    background-size: cover;
+}
+#technology-img{
+    background-image: url('form\ phtots/technology.jpeg');
+    background-size: cover;
+}
+#literature-img{
+    background-image: url('form\ phtots/literature.jpeg');
+    background-size: cover;
+}
+#sports-img{
+    background-image: url('form\ phtots/sports.webp');
+    background-size: cover;
+}
+#fashion-img{
+    background-image: url('form\ phtots/fashion.jpeg');
+    background-size: cover;
+}
+#science-img{
+    background-image: url('form\ phtots/science.jpeg');
+    background-size: cover;
+}
+#photography-img{
+    background-image: url('form\ phtots/photography.jpeg');
+    background-size: cover;
+}
+#astronomy-img{
+    background-image: url('form\ phtots/astronomy.jpg');
+    background-size: cover;
+}
+#film_make-img{
+    background-image: url('form\ phtots/film_make.webp');
+    background-size: cover;
+}
+#home_decor-img{
+    background-image: url('form\ phtots/home_decor.jpeg');
+    background-size: cover;
+}
+
+/* Hobbies images */
+#reading-img{
+    background-image: url('form\ phtots/reading.jpeg');
+    background-size: cover;
+}
+#play-img{
+    background-image: url('form\ phtots/play.jpeg');
+    background-size: cover;
+}
+#cooking-img{
+    background-image: url('form\ phtots/cooking.jpeg');
+    background-size: cover;
+}
+#painting-img{
+    background-image: url('form\ phtots/painting.jpeg');
+    background-size: cover;
+}
+#coding-img{
+    background-image: url('form\ phtots/coding.webp');
+    background-size: cover;
+}
+#watch-img{
+    background-image: url('form\ phtots/watch.jpeg');
+    background-size: cover;
+}
+#gardening-img{
+    background-image: url('form\ phtots/gardening.jpeg');
+    background-size: cover;
+}
+#yoga-img{
+    background-image: url('form\ phtots/yoga.avif');
+    background-size: cover;
+}
+#hiking-img{
+    background-image: url('form\ phtots/hiking.webp');
+    background-size: cover;
+}
+#crafting-img{
+    background-image: url('form\ phtots/crafting.webp');
+    background-size: cover;
+}
+#dancing-img{
+    background-image: url('form\ phtots/dancing.jpeg');
+    background-size: cover;
+}
+#collecting-img{
+    background-image: url('form\ phtots/collecting.jpeg');
+    background-size: cover;
+}
+#writing-img{
+    background-image: url('form\ phtots/writing.webp');
+    background-size: cover;
+}
+#pottery-img{
+    background-image: url('form\ phtots/pottery.jpeg');
+    background-size: cover;
+}
+
+/* checkbox text styling */
+.check_text{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.check-p{
+    color: #4CC9F0;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* hobbies box */
+#check2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.checks{
+    color: #31a5c9;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.input-check{
+    margin-left: 20px;
+}
+
+/* match button styling */
+#matchButton{
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    font-size: 1.3rem;
+    width: 20%;
+    height: 2rem;
+    border-radius: 8px;
+    /* margin-bottom: 5vh; */
+}
+#matchButton:hover{
+    scale: 108%;
+    background-color: rgb(162, 11, 11);
+}
+/* Footer */
+
+footer{
+    background-color: black;
+    height: 40vh;
+}
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10%;
+}
+a{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+}
+li{
+    margin-bottom: 5%;
+    color: white;
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.logo{
+    font-size: 1.5rem;
+    margin-bottom: 7%;
+}
+
+/* icons styling */
+i{
+    font-weight: 700;
+    color: white;
+}
+i:hover{
+    color: #4CC9F0;
+}
+#footer-name{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+.footer-name{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 5%;
+}

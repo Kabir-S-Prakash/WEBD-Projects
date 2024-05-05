@@ -1,0 +1,292 @@
+/* universal */
+*{
+    margin: 0;
+    border: border-box;
+    font-family: ProximaNova, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Arial, Segoe UI Emoji, Segoe UI Symbol, Apple Color Emoji, Twemoji Mozilla, Noto Color Emoji, EmojiOne Color, Android Emoji;
+    text-align: center;
+}
+body{
+    background-color: #FEFAE0;
+}
+.hidden{
+    display: none;
+}
+
+/* go back button */
+#back:hover{
+    scale: 108%;
+    color: #4CC9F0;
+}
+#back{
+    color: #283618;
+    position:fixed;
+    left: 2vh;
+    top: 3vh;
+}
+
+/* Nav Bar */
+#nav-bar{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+#nav-bar-left{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 1%;
+}
+#logo{
+    height: 8vh;
+    width: 15%;
+    position: relative;
+    background-image: url("logo.jpg");
+    background-size: cover;
+}
+
+/* links styling */
+.nav-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #283618;
+}
+a:hover{
+    color: #4CC9F0;
+}
+#nav-links{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-bar-right{
+    position: relative;
+    left: 40%;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+/* language section */
+#lang{
+    display: flex;
+    align-items: center;
+}
+i{
+    font-size: 2rem;
+    color: #283618;
+}
+#lang-logo{
+    color: #283618;
+}
+#lang-text{
+    font-size: 1.5rem;
+    position: relative;
+    left: 0.5rem;
+    color: #283618;
+}
+#logout-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10%;
+    width: 100%;
+    border-radius: 30px;
+}
+#logout-p:hover{
+    scale: 108%;
+    background-color: rgb(231, 231, 231);
+}
+
+/* filter box */
+#filter-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    position: relative;
+    left: 8%;
+}
+
+/* filter symbol */
+#filter-symbol{
+    position: relative;
+    right: 78.5vh;
+}
+#filter-symbol-text:hover{
+    scale: 108%;
+    color: #283618;
+}
+#filter-symbol-text{
+    color: black;
+}
+
+/* filter part */
+#filters{
+    height: 20vh;
+    border: 2px solid black;
+    width: 90%;
+    background-color: white;
+    border-radius: 25px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* gender filter */
+#gender-box{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.filter-text{
+    font-size: 1.4rem;
+    color: #606C38;
+    font-weight: 600;
+}
+.gen-label{
+    font-size: 1.3rem;
+    color: #BC6C25;
+}
+
+/* year of study filter */
+#yos-box{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+/* filter button styling */
+#filter-button{
+    background-color: #4CC9F0;
+    color: white;
+    font-weight: 700;
+    width: 25vh;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 15px;
+}
+#filter-button:hover{
+    scale: 108%;
+    background-color: #27add6;
+}
+
+/* Headline */
+#headline{
+    height: 7vh;
+    width: 60%;
+    position: relative;
+    left: 19%;
+    top: 4vh;
+    font-size: 2rem;
+    color: #606C38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+/* Container */
+#container{
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    left: 9%;
+    top: 10vh;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/* profile box */
+.profile{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+/* profile photo div */
+.profile-photo{
+    height: 35vh;
+    width: 35vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+/* profile info div */
+.profile-info{
+    height: 35vh;
+    border: 2px solid black;
+    width: 80vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-p{
+    color: #BC6C25;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 540;
+}
+
+/* Footer */
+
+footer{
+    background-color: #FEFAE0;
+    height: 40vh;
+    margin-top: 10vh;
+}
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10%;
+}
+a{
+    color: #DDA15E;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+}
+li{
+    margin-bottom: 5%;
+    color: #DDA15E;
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.logo{
+    font-size: 1.5rem;
+    margin-bottom: 7%;
+}
+
+/* icon styling */
+i{
+    font-weight: 700;
+    color: #DDA15E;
+}
+i:hover{
+    color: #4CC9F0;
+}
+#footer-name{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+.footer-name{
+    color: #DDA15E;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 5%;
+}

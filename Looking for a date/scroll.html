@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulSync | Dating & Make Friends</title>
+
+    <!-- links for stylesheet and fonts -->
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <header>
+
+        <!-- navigation bar -->
+        <div id="nav-bar">
+            <div id="nav-bar-left">
+
+                <!-- go back button -->
+                <div id="go-back" onclick="window.history.back()='dating.html'">
+                    <i class="fa-solid fa-circle-chevron-left" id="back"></i>
+                </div>
+                <div id="logo"></div>
+                <div id="nav-links">
+                    <a href="#" class="nav-text">About</a>
+                    <a href="#" class="nav-text">Learn</a>
+                    <a href="#" class="nav-text">Safety</a>
+                </div>
+            </div>
+            <div id="nav-bar-right">
+                <div id="lang">
+                    <i class="fa-solid fa-language" id="lang-logo"></i>
+                    <p id="lang-text">Language</p>
+                </div>
+                <div id="logout" onclick="window.location.href='login.html'">
+                    <p id="logout-p">Log out</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <!-- filter feature -->
+        <div id="filter-box">
+
+            <!-- filter icon -->
+            <div id="filter-symbol" onclick="showFilter()">
+                <i class="fa-solid fa-filter" id="filter-symbol-text"></i>
+            </div>
+
+            <!-- filter box -->
+            <div id="filters" class="hidden">
+                <div id="gender-box">
+                    <p class="filter-text">Gender : </p>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male" class="checks gen-label">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female" class="checks gen-label" >Female</label>
+                </div>
+                <div id="yos-box">
+                    <p class="filter-text">Year of study : </p>
+                    <input type="checkbox" id="1st" name="yos" value="1st">
+                    <label for="1st" class="gen-label">1st</label>
+                    <input type="checkbox" id="2nd" name="yos" value="2nd">
+                    <label for="2nd" class="gen-label">2nd</label>
+                    <input type="checkbox" id="3rd" name="yos" value="3rd">
+                    <label for="3rd" class="gen-label">3rd</label>
+                    <input type="checkbox" id="4th" name="yos" value="4th">
+                    <label for="4th" class="gen-label">4th</label>
+                </div>
+
+                <!-- button to apply filters -->
+                <button type="button" onclick="applyFilters()" id="filter-button">Apply</button>
+            </div>
+        </div>
+
+        <!-- headline -->
+        <div id="headline">Discover Your Perfect Match: Explore All Profiles Now!</div>
+
+        <!-- container for profiles -->
+        <div id="container">
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+        <!-- links -->
+        <div id="links">
+            <ul>
+                <li class="list-head">Legal</li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Intellectual Property</a></li>
+            </ul>
+
+            <!-- social media icons -->
+            <ul>
+                <li class="list-head">Social</li>
+                <li ><a href="#"><i class="fa-brands fa-instagram logo"></i></a></li>
+                <li ><a href="#"><i class="fa-brands fa-facebook logo"></i></a></li>
+                <li ><a href="#"><i class="fa-brands fa-x-twitter logo"></i></a></li>
+                <li ><a href="#"><i class="fa-brands fa-youtube logo"></i></a></li>
+            </ul>
+            <ul>
+                <li class="list-head">Careers</li>
+                <li><a href="#">Careers Portal</a></li>
+                <li><a href="#">Tech Blog</a></li>
+            </ul>
+            <ul>
+                <li class="list-head">FAQ</li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Press Room</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Promo Code</a></li>
+            </ul>
+        </div>
+
+        <!-- copyrights -->
+        <div id="footer-name">
+            <i class="fa-regular fa-copyright footer-name"></i>
+            <p class="footer-name">SoulSync</p>
+        </div>
+    </footer>
+
+    <!-- js script -->
+    <script src="script2.js"></script>
+</body>
+</html>
